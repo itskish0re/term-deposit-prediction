@@ -62,11 +62,30 @@ Your client is a retail banking institution. Term deposits are a major source of
 </div>
 </details>
 
+<br/>
+
+```python
+    train.columns
+```
+<details><summary>Output</summary>
+<div style="background-color:#282a36">
+
+```
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome', 'subscribed'],
+      dtype='object')
+```
+</div>
+</details>
+
+<br/>
+
 ```python
     train.head()
 ```
 <details><summary>Output</summary>
-<div class="overflow" style="background-color:#282a36">
+<div style="background-color:#282a36">
 
 |   | ID | age | job | marital | education | default | balance | housing | loan | contact | day | month | duration | campaign | pdays | previous | poutcome | subscribed |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
